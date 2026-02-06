@@ -69,20 +69,18 @@ a tus aplicaciones favoritas..
       <p class="small">email.</p>
     </section>
   </main>
+<footer class="wrap small">
+  <p>© <span id="y"></span> SerLO Play Games · SerLO ®</p>
+</footer>
 
-  <footer class="wrap small">
-    <p>© <span id="y"></span> SerLO PLay GamES · SerLO ®</p>
-  </footer>
-
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
 <!-- Lightbox -->
 <div id="lightbox" onclick="closeLightbox()">
   <img id="lightbox-img" src="" alt="">
 </div>
 
 <script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+
   function openLightbox(img) {
     const lightbox = document.getElementById("lightbox");
     const lightboxImg = document.getElementById("lightbox-img");
@@ -98,9 +96,11 @@ a tus aplicaciones favoritas..
     if (e.key === "Escape") closeLightbox();
   });
 </script>
-  
+
 </body>
 </html>
+
+
 
 
 
