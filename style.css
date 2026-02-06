@@ -87,25 +87,48 @@ footer{ border-top: 1px solid #eee; }
   flex-wrap: wrap;
 }
 
-.versions summary{
+.versions-section{
+  margin-top: 12px;
+  max-width: 420px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.versions-section summary{
+  list-style: none;
   cursor: pointer;
+  padding: 10px 14px;
   font-size: 14px;
-  opacity: .8;
+  font-weight: 600;
+  opacity: .85;
 }
 
-.versions summary:hover{
-  opacity: 1;
+.versions-section summary::-webkit-details-marker{
+  display: none;
 }
 
-.versions ul{
-  margin: 8px 0 0;
-  padding-left: 18px;
+.versions-section summary::after{
+  content: "▾";
+  float: right;
+  transition: transform .2s ease;
+}
+
+.versions-section[open] summary::after{
+  transform: rotate(180deg);
+}
+
+.versions-section ul{
+  margin: 0;
+  padding: 0 18px 12px;
   font-size: 13px;
 }
 
-.versions li{
-  margin-bottom: 4px;
+.versions-section li{
+  opacity: .75;
 }
+
+
 
 
 
