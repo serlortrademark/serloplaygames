@@ -23,6 +23,13 @@ main section{ margin-top: 28px; }
   display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 12px; margin-top: 12px;
 }
+.grid img{
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+}
+
 .ph{
   border:1px dashed #ccc; border-radius: 14px; padding: 38px 12px;
   text-align:center; opacity:.7;
@@ -33,6 +40,7 @@ footer{ border-top: 1px solid #eee; }
   display: block;
   margin-bottom: 16px;
 }
+
 
 
 
