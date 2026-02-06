@@ -48,6 +48,40 @@ footer{ border-top: 1px solid #eee; }
   display: block;
   margin-bottom: 16px;
 }
+/* --- Lightbox --- */
+#lightbox{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s ease;
+  z-index: 999;
+}
+
+#lightbox.show{
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#lightbox img{
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 14px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.4);
+  background: #fff;
+  cursor: zoom-out;
+}
+
+/* cursor de zoom en las miniaturas */
+.grid img{
+  cursor: zoom-in;
+}
+
+
 
 
 
