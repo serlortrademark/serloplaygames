@@ -115,7 +115,10 @@ footer{ border-top: 1px solid #eee; }
 h1{
   color: #c2410c;
   letter-spacing: -0.5px;
+  margin-top: 4px;     
+  margin-bottom: 8px; 
 }
+
 
 
 
