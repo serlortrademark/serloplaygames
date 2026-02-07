@@ -151,14 +151,16 @@ h2{
   cursor: pointer;
   font-weight: 600;
   color: #c2410c;
+  font-size: 14px;
   list-style: none;
 }
 
 .terms p{
   margin: 15px 0;
-  font-size: 5px;
+  font-size: 14px;
   opacity: .85;
 }
+
 
 
 
