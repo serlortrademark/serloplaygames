@@ -198,6 +198,17 @@ section a.btn{
   display: inline-block;
 }
 
+.contact-btn{
+  background: #2563eb;    
+  border-color: #2563eb;
+}
+
+.contact-btn:hover{
+  background: #1e40af;
+  border-color: #1e40af;
+}
+
+
 
 
 
