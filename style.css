@@ -139,8 +139,8 @@ h2{
 .terms summary{
   cursor: pointer;
   font-weight: 600;
+  color: #c2410c;
   list-style: none;
-  opacity: .85;
 }
 
 .terms summary::-webkit-details-marker{
@@ -162,6 +162,7 @@ h2{
   font-size: 14px;
   opacity: .85;
 }
+
 
 
 
