@@ -177,6 +177,21 @@ footer{
   opacity: .7;
 }
 
+.actions{
+  margin-bottom: 18px;   
+}
+
+.versions{
+  margin-left: 10px;
+}
+
+.windows-compat{
+  margin-top: 12px;
+}
+
+
+
+
 
 
 
