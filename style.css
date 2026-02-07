@@ -199,14 +199,15 @@ section a.btn{
 }
 
 .contact-btn{
-  background: #2563eb;    
-  border-color: #2563eb;
+  background: #4b5563;
+  border-color: #4b5563;
 }
 
 .contact-btn:hover{
-  background: #1e40af;
-  border-color: #1e40af;
+  background: #374151;
+  border-color: #374151;
 }
+
 
 
 
