@@ -222,6 +222,18 @@ section a.btn{
   border-radius: 10px;
 }
 
+header{
+  text-align: center;
+}
+
+.logo{
+  display: block;
+  margin: 0 auto 8px auto;
+}
+
+
+
+
 
 
 
