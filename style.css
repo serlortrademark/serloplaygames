@@ -252,6 +252,18 @@ section ul{
   margin: 0 auto;
 }
 
+.versions ul.empty{
+  text-align: center;
+  padding-left: 0;
+}
+
+.versions ul.empty li{
+  list-style: none;
+  opacity: 0.7;
+}
+
+
+
 
 
 
