@@ -88,6 +88,10 @@ footer{ border-top: 1px solid #eee; }
   flex-wrap: wrap;
 }
 
+.windows-compat{
+  text-align: left;
+}
+
 .versions summary{
   cursor: pointer;
   font-size: 14px;
@@ -223,8 +227,13 @@ section a.btn{
 }
 
 header{
-  text-align: center;
+  text-align: left;   
 }
+
+.hero-center{
+  text-align: center; 
+}
+
 
 .logo{
   display: block;
@@ -255,6 +264,7 @@ section ul{
 header .actions .btn{
   margin: 0 !important;
 }
+
 
 
 
