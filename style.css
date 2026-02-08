@@ -230,6 +230,15 @@ section a.btn{
   border-radius: 10px;
 }
 
+.btn{
+  color: #ffffff;          /* texto blanco */
+  text-decoration: none;   
+}
+
+.btn:hover{
+  color: #ffffff;
+}
+
 header{
   text-align: center;
 }
@@ -280,6 +289,7 @@ section ul{
 .video-btn:hover{
   background: #fed7aa;
 }
+
 
 
 
