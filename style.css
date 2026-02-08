@@ -82,8 +82,7 @@ footer{ border-top: 1px solid #eee; }
 }
 
 .actions{
-  display: flex;
-  justify-content: center; 
+  display: flex; 
   align-items: center;
   gap: 18px;
   flex-wrap: wrap;
@@ -249,6 +248,7 @@ section ul{
   max-width: 600px;
   margin: 0 auto;
 }
+
 
 
 
