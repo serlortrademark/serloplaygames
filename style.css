@@ -244,6 +244,14 @@ section > h2{
   text-align: center;
 }
 
+section ul{
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
+
 
 
 
