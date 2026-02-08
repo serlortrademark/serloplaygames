@@ -83,8 +83,9 @@ footer{ border-top: 1px solid #eee; }
 
 .actions{
   display: flex;
+  justify-content: center; 
   align-items: center;
-  gap: 14px;
+  gap: 18px;
   flex-wrap: wrap;
 }
 
@@ -230,6 +231,21 @@ header{
   display: block;
   margin: 0 auto 8px auto;
 }
+
+section > h2{
+  text-align: center;
+}
+
+.terms summary{
+  text-align: left;
+}
+
+.windows-compat{
+  text-align: center;
+}
+
+
+
 
 
 
