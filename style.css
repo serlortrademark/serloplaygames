@@ -103,7 +103,7 @@ footer{ border-top: 1px solid #eee; }
   margin: 8px 0 0;
   padding-left: 18px;
   font-size: 13px;
-  text-align: left;
+  text-align: center;
 }
 
 .versions li{
@@ -251,6 +251,7 @@ section ul{
   max-width: 600px;
   margin: 0 auto;
 }
+
 
 
 
