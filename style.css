@@ -190,8 +190,14 @@ footer{
 }
 
 .sub{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #92400e;           
+  letter-spacing: -0.2px;
   margin-bottom: 40px;
 }
+
 
 section a.btn{
   margin-top: 16px;
@@ -215,6 +221,7 @@ section a.btn{
   font-size: 14px;
   border-radius: 10px;
 }
+
 
 
 
