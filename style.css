@@ -267,6 +267,20 @@ section ul{
   opacity: 0.7;
 }
 
+.video-btn{
+  margin-top: 14px;
+  padding: 6px 12px;
+  font-size: 13px;
+  background: #eef2ff;
+  border-color: #c7d2fe;
+  color: #1e3a8a;
+}
+
+.video-btn:hover{
+  background: #e5e7eb;
+}
+
+
 
 
 
