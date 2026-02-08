@@ -268,17 +268,21 @@ section ul{
 }
 
 .video-btn{
-  margin-top: 14px;
-  padding: 6px 12px;
-  font-size: 13px;
-  background: #eef2ff;
-  border-color: #c7d2fe;
-  color: #1e3a8a;
+  margin-top: 12px;
+  padding: 4px 10px;         
+  font-size: 12px;
+  background: #ffedd5;        
+  color: #9a3412;
+  border: 1px solid #fed7aa;
+  border-radius: 8px;
 }
 
 .video-btn:hover{
-  background: #e5e7eb;
+  background: #fed7aa;
 }
+
+
+
 
 
 
