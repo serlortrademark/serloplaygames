@@ -101,7 +101,7 @@ footer{ border-top: 1px solid #eee; }
 
 .versions ul{
   margin: 8px 0 0;
-  padding-left: 10px;
+  padding-left: 18px;
   font-size: 13px;
   text-align: center;
 }
@@ -251,6 +251,7 @@ section ul{
   max-width: 600px;
   margin: 0 auto;
 }
+
 
 
 
