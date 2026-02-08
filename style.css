@@ -231,12 +231,12 @@ section a.btn{
 }
 
 .btn{
-  color: #ffedd5;          /* texto blanco */
+  color: #ea580c;
   text-decoration: none;   
 }
 
 .btn:hover{
-  color: #ffffff;
+  color: #ea580c;
 }
 
 header{
@@ -289,6 +289,7 @@ section ul{
 .video-btn:hover{
   background: #fed7aa;
 }
+
 
 
 
