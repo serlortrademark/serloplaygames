@@ -331,7 +331,11 @@ section{
 
 .versions-in-card{
   margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(0,0,0,0.08);
 }
+
+
 
 
 
