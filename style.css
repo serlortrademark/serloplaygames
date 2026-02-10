@@ -160,7 +160,6 @@ section a.btn{
   display: inline-block;
 }
 
-/* Botón vídeo */
 .video-btn{
   margin-top: 12px;
   padding: 4px 10px;
@@ -175,7 +174,6 @@ section a.btn{
   background: #fed7aa;
 }
 
-/* Botón contacto */
 .contact-btn{
   background: #9ca3af;
   border-color: #9ca3af;
@@ -183,6 +181,8 @@ section a.btn{
   padding: 8px 14px;
   font-size: 14px;
   border-radius: 10px;
+  display: block;
+  margin: 16px auto 0 auto;
 }
 
 .contact-btn:hover{
@@ -191,7 +191,6 @@ section a.btn{
   color: #ffffff;
 }
 
-/* --- Lightbox --- */
 #lightbox{
   position: fixed;
   inset: 0;
@@ -219,7 +218,6 @@ section a.btn{
   cursor: zoom-out;
 }
 
-/* Términos */
 .terms summary{
   cursor: pointer;
   font-weight: 600;
@@ -239,9 +237,6 @@ section a.btn{
   opacity: .85;
 }
 
-/* ==========================
-   Versiones anteriores (B)
-   ========================== */
 
 .versions{
   margin-top: 14px;
@@ -319,6 +314,18 @@ section a.btn{
   font-size: 13px;
   text-align: left;
 }
+
+.video-btn{
+  display: block;
+  margin: 12px auto 0 auto;
+}
+
+.versions-in-card > summary{
+  text-align: center;
+  cursor: pointer;
+}
+
+
 
 
 
