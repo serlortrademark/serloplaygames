@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SerLO PLay GamES - Mantenimiento</title>
+<title>SerLO Play Games - Mantenimiento</title>
+
+<!-- Favicon PNG -->
 <link rel="icon" type="image/png" href="favicon.png">
 
 <style>
@@ -20,7 +22,7 @@ body {
     overflow: hidden;
 }
 
-/* Fondo animado sutil */
+/* Halo naranja animado de fondo */
 body::before {
     content: "";
     position: absolute;
@@ -40,9 +42,9 @@ body::before {
     z-index: 1;
     text-align: center;
     max-width: 650px;
-    padding: 40px;
+    padding: 50px;
     backdrop-filter: blur(8px);
-    background: rgba(20,20,20,0.7);
+    background: rgba(20,20,20,0.75);
     border-radius: 15px;
     box-shadow: 0 0 30px rgba(255,122,0,0.15);
     animation: fadeIn 1.2s ease forwards;
@@ -53,11 +55,17 @@ body::before {
     to { opacity: 1; transform: translateY(0); }
 }
 
-.logo {
-    font-size: 1.4rem;
-    letter-spacing: 3px;
-    font-weight: bold;
-    margin-bottom: 20px;
+/* Logo */
+.logo-img {
+    width: 180px;
+    margin-bottom: 25px;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-8px); }
+    100% { transform: translateY(0px); }
 }
 
 h1 {
@@ -99,69 +107,21 @@ p {
 
 <body>
 <div class="container">
-    <div class="logo">SerLO PLay GamES</div>
+
+    <!-- Logo PNG -->
+    <img src="logo.png" alt="SerLO Play Games Logo" class="logo-img">
+
     <h1>🚧 En mantenimiento</h1>
     <div class="divider"></div>
+
     <p>Estamos realizando mejoras y optimizaciones.</p>
-    <p>Volvemos muy pronto.</p>
-    <div class="status">Muchas Gracias !!</div>
+    <p>Volvemos muy pronto con novedades.</p>
+
+    <div class="status">Sistema temporalmente offline</div>
+
 </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
