@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SerLO PLay GamES - Mantenimiento</title>
 
-<!-- Favicon PNG -->
 <link rel="icon" type="image/png" href="favicon.png">
 
 <style>
@@ -22,7 +21,6 @@ body {
     overflow: hidden;
 }
 
-/* Halo naranja animado de fondo */
 body::before {
     content: "";
     position: absolute;
@@ -55,10 +53,9 @@ body::before {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Logo */
 .logo-img {
     width: 180px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     animation: float 4s ease-in-out infinite;
 }
 
@@ -66,6 +63,16 @@ body::before {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-8px); }
     100% { transform: translateY(0px); }
+}
+
+/* Nuevo título debajo del logo */
+.brand-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #ff7a00;
+    margin-bottom: 20px;
+    text-shadow: 0 0 12px rgba(255,122,0,0.5);
+    letter-spacing: 1px;
 }
 
 h1 {
@@ -108,8 +115,10 @@ p {
 <body>
 <div class="container">
 
-    <!-- Logo PNG -->
-    <img src="logo.png" alt="SerLO Play Games Logo" class="logo-img">
+    <img src="logo.png" alt="SerLO PLay GamES Logo" class="logo-img">
+
+    <!-- Título añadido -->
+    <div class="brand-title">SerLO PLay GamES</div>
 
     <h1>🚧 En mantenimiento</h1>
     <div class="divider"></div>
@@ -122,6 +131,7 @@ p {
 </div>
 </body>
 </html>
+
 
 
 
