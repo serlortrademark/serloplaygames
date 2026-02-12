@@ -343,13 +343,14 @@ section{
   gap: 6px;
 }
 
-.download-version{
+.download-block .download-version{
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.3px;
-  color: #7c2d12;
+  color: #7c2d12 !important;
   opacity: 1;
 }
+
 
 
 
