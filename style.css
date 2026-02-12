@@ -351,7 +351,6 @@ section{
   opacity: 1;
 }
 
-/* Botón descargar "cristal" SOLO para el CTA */
 .btn.btn-download{
   display: inline-flex;
   align-items: center;
@@ -395,15 +394,16 @@ section{
 
 /* Icono */
 .btn.btn-download .btn-icon{
-  width: 26px;
-  height: 26px;
-  flex: 0 0 26px;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
   transition: transform .2s ease;
 }
 
 .btn.btn-download:hover .btn-icon{
   transform: scale(1.08);
 }
+
 
 
 
