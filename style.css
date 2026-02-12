@@ -351,6 +351,62 @@ section{
   opacity: 1;
 }
 
+/* Botón descargar "cristal" SOLO para el CTA */
+.btn.btn-download{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 14px 22px;
+  border-radius: 14px;
+
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.28);
+
+  background: linear-gradient(
+    145deg,
+    rgba(255, 140, 0, 0.85),
+    rgba(234, 88, 12, 0.72)
+  );
+
+  /* Cristal */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 10px 26px rgba(234, 88, 12, 0.35),
+    inset 0 1px 0 rgba(255,255,255,0.45);
+
+  transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+.btn.btn-download:hover{
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow:
+    0 14px 34px rgba(234, 88, 12, 0.55),
+    inset 0 1px 0 rgba(255,255,255,0.60);
+  filter: saturate(1.05);
+}
+
+.btn.btn-download:active{
+  transform: translateY(0);
+}
+
+/* Icono */
+.btn.btn-download .btn-icon{
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  transition: transform .2s ease;
+}
+
+.btn.btn-download:hover .btn-icon{
+  transform: scale(1.08);
+}
+
+
+
 
 
 
