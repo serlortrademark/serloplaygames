@@ -396,7 +396,7 @@ section{
 .btn.btn-download .btn-icon{
   width: 34px;
   height: 34px;
-  flex: 0 0 26px;
+  flex: 0 0 34px;
   padding: 16px 26px;
   transition: transform .2s ease;
 }
@@ -404,6 +404,7 @@ section{
 .btn.btn-download:hover .btn-icon{
   transform: scale(1.08);
 }
+
 
 
 
