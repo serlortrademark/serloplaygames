@@ -345,10 +345,12 @@ section{
 
 .download-version{
   font-size: 13px;
-  opacity: 0.7;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.3px;
+  color: #7c2d12;
+  opacity: 0.9;
 }
+
 
 
 
