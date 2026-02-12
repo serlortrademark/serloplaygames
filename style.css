@@ -394,16 +394,17 @@ section{
 
 /* Icono */
 .btn.btn-download .btn-icon{
-  width: 34px;
-  height: 34px;
-  flex: 0 0 34px;
-  padding: 16px 26px;
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  padding: 14px 22px;
   transition: transform .2s ease;
 }
 
 .btn.btn-download:hover .btn-icon{
   transform: scale(1.08);
 }
+
 
 
 
