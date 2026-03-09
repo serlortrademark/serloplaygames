@@ -238,7 +238,6 @@ section a.btn{
   opacity: .85;
 }
 
-
 .versions{
   margin-top: 14px;
 }
@@ -403,6 +402,24 @@ section{
 .btn.btn-download:hover .btn-icon{
   transform: scale(1.08);
 }
+
+.site-footer{
+  text-align:center;
+  margin-top:60px;
+  padding-bottom:30px;
+}
+
+.footer-logo{
+  margin-top:14px;
+  opacity:0.9;
+}
+
+.footer-logo img{
+  width:110px;
+  height:auto;
+  filter:brightness(0.9);
+}
+
 
 
 
