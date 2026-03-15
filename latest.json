@@ -4,7 +4,7 @@
   "notes": "Interfaz simplificada y más coherente, retoque de algunos botones y ajustes visuales y de espaciado en la interfaz.",
   "free_mode_enabled": false,
   "minimum_allowed_version": "2.1.0",
-  "block_licensed_users": false,
+  "block_licensed_users": true,
   "license_plan_name": "1 año",
   "license_price_eur": "6",
   "paypal_url": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SS7W3RTHGNGPC",
