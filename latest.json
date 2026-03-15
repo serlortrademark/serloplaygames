@@ -1,7 +1,7 @@
 {
   "version": "1.1.0",
   "url": "https://serlortrademark.github.io/serloplaygames/",
-  "notes": "Actualización mayor con mejoras visuales, optimización del sistema de iconos, mayor estabilidad interna y mejora general del programa.",
+  "notes": "Interfaz simplificada y más coherente, Retoque de algunos botones, Ajustes visuales y de espaciado en la interfaz.",
   "free_mode_enabled": false,
   "minimum_allowed_version": "2.0.0",
   "block_licensed_users": false,
