@@ -5,7 +5,7 @@
 <h1 align="center">SerLO PLay GamES</h1>
 
 <p align="center">
-  Launcher portable y ligero para gestionar,organizar y lanzar tus juegos y cualquier otro software fácilmente y desde un unico lugar
+  Organiza y ejecuta tus juegos y aplicaciones desde un solo lugar
 </p>
 
 <p align="center">
@@ -21,6 +21,7 @@
 
 ## ⚙️ Características
 
+- Portable y ligero
 - Gestión sencilla de juegos y software
 - Iconos personalizados por juego y software 
 - Tema claro y oscuro
