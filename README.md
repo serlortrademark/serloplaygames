@@ -21,7 +21,7 @@
 
 ## ⚙️ Características
 
-- Gestión sencilla de juegos y softwares
+- Gestión sencilla de juegos y software
 - Iconos personalizados por juego y software 
 - Tema claro y oscuro
 - Modo demo limitado
