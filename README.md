@@ -5,7 +5,7 @@
 <h1 align="center">SerLO PLay GamES</h1>
 
 <p align="center">
-  Launcher ligero para gestionar,organizar y lanzar tus juegos y cualquier software fácilmente y desde un unico lugar
+  Launcher portable y ligero para gestionar,organizar y lanzar tus juegos y cualquier otro software fácilmente y desde un unico lugar
 </p>
 
 <p align="center">
@@ -19,19 +19,11 @@
 
 ---
 
-## 🎮 Descripción
-
-SerLO Play Games es un launcher ligero para Windows que permite gestionar y lanzar tus juegos desde una única interfaz.  
-Incluye sistema de licencias, modo demo y soporte para iconos personalizados.
-
----
-
 ## ⚙️ Características
 
-- Gestión sencilla de juegos
-- Iconos personalizados por juego
+- Gestión sencilla de juegos y softwares
+- Iconos personalizados por juego y software 
 - Tema claro y oscuro
-- Sistema de licencias
 - Modo demo limitado
 - Interfaz rápida y ligera
 
