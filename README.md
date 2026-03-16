@@ -44,6 +44,6 @@ https://serlortrademark.github.io/serloplaygames
 
 ---
 
-## ⚙️ Requisitos
+## 💻 Requisitos
 
 - Windows 10 o Windows 11
