@@ -2,10 +2,10 @@
   <img src="img/logo.png" width="200">
 </p>
 
-<h1 align="center">SerLO Play Games</h1>
+<h1 align="center">SerLO PLay GamES</h1>
 
 <p align="center">
-  Launcher ligero para gestionar y lanzar tus juegos fácilmente
+  Launcher ligero para gestionar,organizar y lanzar tus juegos y cualquier software fácilmente y desde un unico lugar
 </p>
 
 <p align="center">
