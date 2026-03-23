@@ -26,7 +26,7 @@
 - Iconos personalizados por juego y software 
 - Tema claro y oscuro
 - Interfaz rápida y ligera
-- 🌍 Modo demo limitado
+- Modo demo limitado
 
 ---
 
