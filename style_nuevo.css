@@ -73,7 +73,7 @@ h1{
 .btn.disabled{
   opacity: .55;
   cursor: not-allowed;
-  pointer-events: none
+  pointer-events: none;
 }
 
 .btn:hover{
@@ -304,6 +304,12 @@ section a.btn{
   border-color: #fed7aa;
 }
 
+.version-dl.disabled{
+  background: #f3f4f6;
+  border-color: #d1d5db;
+  color: #6b7280;
+}
+
 .version-details{
   margin-top: 10px;
 }
@@ -336,6 +342,13 @@ section a.btn{
   margin-top: 32px;
   padding-top: 24px;
   border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+.old-versions-note{
+  max-width: 700px;
+  margin: 14px auto 0 auto;
+  color: #9a3412;
+  opacity: 0.9;
 }
 
 .download-block{
