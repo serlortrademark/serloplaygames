@@ -35,7 +35,7 @@ h1{
   line-height: 1.35;
   color: #7c2d12;
   letter-spacing: -0.3px;
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
 
 .small{
@@ -86,13 +86,10 @@ main section{
 
 section{
   margin-bottom: 80px;
-  text-align: center;
 }
 
 section > h2{
   text-align: center;
-  justify-content: center;
-  margin-bottom: 18px;
 }
 
 h2{
@@ -101,17 +98,10 @@ h2{
   gap: 8px;
 }
 
-section p{
-  max-width: 760px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 section ul{
   text-align: left;
-  max-width: 650px;
+  max-width: 600px;
   margin: 0 auto;
-  padding-left: 22px;
 }
 
 .grid{
@@ -148,7 +138,7 @@ section ul{
 }
 
 .card p{
-  margin: 10px auto;
+  margin: 10px 0;
 }
 
 footer{
@@ -179,8 +169,6 @@ section a.btn{
   color: #9a3412;
   border: 1px solid #fed7aa;
   border-radius: 8px;
-  display: block;
-  margin: 12px auto 0 auto;
 }
 
 .video-btn:hover{
@@ -327,9 +315,18 @@ section a.btn{
   text-align: left;
 }
 
+.video-btn{
+  display: block;
+  margin: 12px auto 0 auto;
+}
+
 .versions-in-card > summary{
   text-align: center;
   cursor: pointer;
+}
+
+section{
+  text-align: center;
 }
 
 .versions-in-card{
@@ -370,6 +367,7 @@ section a.btn{
     rgba(234, 88, 12, 0.72)
   );
 
+  /* Cristal */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
 
@@ -393,6 +391,7 @@ section a.btn{
   transform: translateY(0);
 }
 
+/* Icono */
 .btn.btn-download .btn-icon{
   width: 26px;
   height: 26px;
