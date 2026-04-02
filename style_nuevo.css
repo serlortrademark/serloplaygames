@@ -245,9 +245,11 @@ section a.btn{
 }
 
 .terms p{
-  margin: 15px 0;
+  max-width: 760px;
+  margin: 15px auto;
   font-size: 12px;
   opacity: .85;
+  text-align: left;
 }
 
 .versions{
