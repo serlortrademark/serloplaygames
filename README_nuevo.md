@@ -2,7 +2,7 @@
   <img src="img/logo.png" width="200">
 </p>
 
-<h1 align="center">SerLO Play Games</h1>
+<h1 align="center">SerLO PLay GamES</h1>
 
 <p align="center">
   🚀 Advanced launcher with icon system, Steam support and accent colors
@@ -27,7 +27,7 @@
 
 ---
 
-# 🇪🇸 Español
+ 🇪🇸 Español
 
 ## ⚙️ Características
 
