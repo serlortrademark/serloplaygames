@@ -47,7 +47,7 @@ https://github.com/serlortrademark/serloplaygames/releases/latest
 
 ## 🌐 Web oficial
 
-https://serloplaygames.pages.dev
+https://serlortrademark.github.io/serloplaygames/
 
 ---
 
