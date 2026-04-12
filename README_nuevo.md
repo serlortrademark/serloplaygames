@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://serlortrademark.github.io/serloplaygames/">
+  <a href="https://serloplaygames.pages.dev">
     <img src="https://img.shields.io/badge/Official%20Website-SerLO%20Play%20Games-orange?style=for-the-badge">
   </a>
   <a href="https://github.com/serlortrademark/serloplaygames/releases/latest">
@@ -56,7 +56,7 @@ https://github.com/serlortrademark/serloplaygames/releases/latest
 
 ## 🌐 Web oficial
 
-https://serlortrademark.github.io/serloplaygames/
+https://serloplaygames.pages.dev
 
 ---
 
@@ -94,8 +94,7 @@ https://github.com/serlortrademark/serloplaygames/releases/latest
 ---
 
 ## 🌐 Official Website
-
-https://serlortrademark.github.io/serloplaygames/
+https://serloplaygames.pages.dev
 
 ---
 
