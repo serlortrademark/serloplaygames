@@ -443,6 +443,26 @@ section a.btn{
   height:auto;
 }
 
+.backup-notice{
+  margin-top: -40px;
+  margin-bottom: 40px;
+  font-size: 13px;
+  color: #7c2d12;
+  opacity: 0.85;
+  text-align: center;
+}
+
+.backup-notice a{
+  color: #ea580c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.backup-notice a:hover{
+  text-decoration: underline;
+}
+
+
 
 
 
