@@ -5,20 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SerLO PLay GamES</title>
   <link rel="icon" type="image/png" href="favicon.png">
-  <meta name="description" content="SerLO PLay GamES es un launcher portable para Windows que permite organizar y ejecutar juegos, accesos directos y aplicaciones desde un solo lugar, con soporte para Steam, auto iconos, tema claro/oscuro, multiidioma y sistema de colores de acento." />
+  <meta
+    id="meta-description"
+    name="description"
+    content="SerLO PLay GamES es un launcher portable para Windows que permite organizar y ejecutar juegos, accesos directos y aplicaciones desde un solo lugar, con soporte para Steam, auto iconos, tema claro/oscuro, multiidioma y sistema de colores de acento."
+  />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="wrap">
-    <img src="img/logo.png" alt="Logo SerLO PLay GamES" class="logo">
+    <div class="lang-switch" aria-label="Selector de idioma">
+      <button type="button" class="lang-btn active" data-lang="es">🇪🇸 ES</button>
+      <button type="button" class="lang-btn" data-lang="en">🇬🇧 EN</button>
+    </div>
+
+    <img src="img/logo.png" alt="Logo SerLO PLay GamES" class="logo" id="logo-img">
     <h1>SerLO PLay GamES</h1>
-    <p class="sub">Organiza y ejecuta tus juegos y aplicaciones desde un solo lugar</p>
+    <p class="sub" data-i18n="hero_subtitle">Organiza y ejecuta tus juegos y aplicaciones desde un solo lugar, de forma simple y rápida</p>
 
     <p class="backup-notice">
-    🔸 Estás en una página alternativa · Web oficial:
-    <a href="https://serloplaygames.pages.dev"    rel="noopener">
-    serloplaygames.pages.dev
-    </a>
+      <span data-i18n="backup_notice_prefix">🔸 Estás en una página alternativa · Web oficial:</span>
+      <a href="https://serloplaygames.pages.dev" rel="noopener">serloplaygames.pages.dev</a>
     </p>
 
     <div class="download-block">
@@ -26,105 +33,106 @@
          href="https://github.com/serlortrademark/serloplaygames/releases/latest/download/SerLO_PLay_GamES.zip"
          rel="noopener">
          <img src="img/download-serlo.png" alt="" class="btn-icon">
-         Descargar
+         <span data-i18n="download_button">Descargar</span>
       </a>
-      <div class="download-version">
-        v3.1.0
-      </div>
+      <div class="download-version">v3.1.0</div>
+      <div class="download-status" data-i18n="download_status">Última versión disponible</div>
     </div>
 
-    <p class="small windows-compat">🪟 Compatible con Windows 10/11</p>
+    <p class="small windows-compat" data-i18n="windows_compat">🪟 Compatible con Windows 10/11</p>
   </header>
 
   <main class="wrap">
     <section>
-      <h2>🧩 ¿Qué es?</h2>
-      <p>
+      <h2 data-i18n="what_is_title">🧩 ¿Qué es?</h2>
+      <p data-i18n="what_is_p1">
         SerLO PLay GamES es un launcher portable para Windows que te permite organizar, lanzar y personalizar tus juegos,
         accesos directos y aplicaciones desde un único lugar.
       </p>
-      <p>
+      <p data-i18n-html="what_is_p2">
         Es compatible con archivos <strong>.exe</strong>, accesos directos <strong>.lnk</strong> y accesos directos a Internet
         <strong>.url</strong>, incluyendo compatibilidad con <strong>Steam</strong>.
       </p>
-      <p>
+      <p data-i18n="what_is_p3">
         Está pensado para centralizar y simplificar el acceso a tus aplicaciones favoritas con una interfaz ligera, clara,
         fácil de usar y ahora también más personalizable visualmente.
       </p>
     </section>
 
     <section class="card card-highlight">
-      <h2>✨ Novedades de la versión 3.1.0</h2>
+      <h2 data-i18n="news_title">✨ Novedades de la versión 3.1.0</h2>
       <ul>
-        <li><strong>🎨 Nuevo sistema de colores de acento.</strong></li>
-        <li>Posibilidad de elegir entre <strong>Naranja</strong>, <strong>Azul</strong>, <strong>Verde</strong>, <strong>Morado</strong>, <strong>Gris</strong> y <strong>Turquesa</strong>.</li>
-        <li>El color de acento se aplica a la <strong>selección de la lista</strong>, al botón <strong>Iniciar</strong> y a la <strong>barra de búsqueda</strong>.</li>
-        <li>Los enlaces de <strong>Configuración</strong> y <strong>Acerca de</strong> también se adaptan al color elegido.</li>
-        <li>🧼 Mejora visual general y refinamiento de la interfaz.</li>
-        <li>⚙️ Ajustes en Configuración para una experiencia más limpia y coherente.</li>
+        <li data-i18n-html="news_li1"><strong>🎨 Nuevo sistema de colores de acento.</strong></li>
+        <li data-i18n-html="news_li2">Posibilidad de elegir entre <strong>Naranja</strong>, <strong>Azul</strong>, <strong>Verde</strong>, <strong>Morado</strong>, <strong>Gris</strong> y <strong>Turquesa</strong>.</li>
+        <li data-i18n-html="news_li3">El color de acento se aplica a la <strong>selección de la lista</strong>, al botón <strong>Iniciar</strong> y a la <strong>barra de búsqueda</strong>.</li>
+        <li data-i18n-html="news_li4">Los enlaces de <strong>Configuración</strong> y <strong>Acerca de</strong> también se adaptan al color elegido.</li>
+        <li data-i18n="news_li5">🧼 Mejora visual general y refinamiento de la interfaz.</li>
+        <li data-i18n="news_li6">⚙️ Ajustes en Configuración para una experiencia más limpia y coherente.</li>
       </ul>
     </section>
 
     <section>
-      <h2>🖼️ Capturas</h2>
+      <h2 data-i18n="screenshots_title">🖼️ Capturas</h2>
       <div class="grid">
-        <img src="img/captura1.png" alt="SerLO Play Games - Vista 1" onclick="openLightbox(this)">
-        <img src="img/captura2.png" alt="SerLO Play Games - Vista 2" onclick="openLightbox(this)">
-        <img src="img/captura3.png" alt="SerLO Play Games - Vista 3" onclick="openLightbox(this)">
-        <img src="img/captura4.png" alt="SerLO Play Games - Vista 4" onclick="openLightbox(this)">
+        <img src="img/captura1.png" alt="SerLO Play Games - Vista 1" data-i18n-alt="screenshot_1_alt" onclick="openLightbox(this)">
+        <img src="img/captura2.png" alt="SerLO Play Games - Vista 2" data-i18n-alt="screenshot_2_alt" onclick="openLightbox(this)">
+        <img src="img/captura3.png" alt="SerLO Play Games - Vista 3" data-i18n-alt="screenshot_3_alt" onclick="openLightbox(this)">
+        <img src="img/captura4.png" alt="SerLO Play Games - Vista 4" data-i18n-alt="screenshot_4_alt" onclick="openLightbox(this)">
       </div>
     </section>
 
     <section>
-      <h2>⚙️ Cómo funciona</h2>
+      <h2 data-i18n="how_it_works_title">⚙️ Cómo funciona</h2>
       <ul>
-        <li>Descargas y ejecutas el programa en Windows, sin instalación.</li>
-        <li>Puedes usarlo en modo demo con limitaciones.</li>
-        <li>La activación se realiza dentro del propio launcher.</li>
-        <li>Permite organizar, renombrar, reordenar y personalizar tus elementos.</li>
-        <li>Desde Configuración también puedes cambiar el idioma, el tema y el color de acento de la interfaz.</li>
+        <li data-i18n="how_it_works_li1">Descargas y ejecutas el programa en Windows, sin instalación.</li>
+        <li data-i18n="how_it_works_li2">Puedes usarlo en modo demo con limitaciones.</li>
+        <li data-i18n="how_it_works_li3">La activación se realiza dentro del propio launcher.</li>
+        <li data-i18n="how_it_works_li4">Permite organizar, renombrar, reordenar y personalizar tus elementos.</li>
+        <li data-i18n="how_it_works_li5">Desde Configuración también puedes cambiar el idioma, el tema y el color de acento de la interfaz.</li>
       </ul>
 
       <a class="btn video-btn"
          href="https://youtu.be/9AEWamyHgfM"
          target="_blank"
          rel="noopener">
-         🎥 Ver vídeo tutorial
+         <span data-i18n="video_button">🎥 Ver vídeo tutorial</span>
       </a>
     </section>
 
     <section class="card">
-      <h2>🔄 Cómo se actualiza SerLO PLay GamES</h2>
-      <p>SerLO PLay GamES es un programa portable, por lo que no requiere instalación.</p>
-      <p>Para actualizarlo, simplemente descarga la nueva versión y sustituye el antiguo <strong>.exe</strong> por el nuevo en la misma carpeta.</p>
-      <p>El resto de archivos y carpetas se mantienen intactos, por lo que no se pierde ninguna configuración ni información.</p>
-      <p>No es necesario desinstalar nada ni ejecutar instaladores: descargar, reemplazar y listo.</p>
+      <h2 data-i18n="update_title">🔄 Cómo se actualiza SerLO PLay GamES</h2>
+      <p data-i18n="update_p1">SerLO PLay GamES es un programa portable, por lo que no requiere instalación.</p>
+      <p data-i18n-html="update_p2">Para actualizarlo, simplemente descarga la nueva versión y sustituye el antiguo <strong>.exe</strong> por el nuevo en la misma carpeta.</p>
+      <p data-i18n="update_p3">El resto de archivos y carpetas se mantienen intactos, por lo que no se pierde ninguna configuración ni información.</p>
+      <p data-i18n="update_p4">No es necesario desinstalar nada ni ejecutar instaladores: descargar, reemplazar y listo.</p>
 
       <details class="versions versions-in-card">
-        <summary>📦 Versiones anteriores</summary>
-        <p class="small old-versions-note">
-          ⚠️ Se recomienda usar siempre la última versión para garantizar compatibilidad, seguridad y mejor rendimiento.
+        <summary data-i18n="previous_versions_title">📦 Versiones anteriores (archivo)</summary>
+        <p class="small old-versions-note" data-i18n="old_versions_note">
+          ⚠️ Se recomienda usar siempre la última versión. Las versiones anteriores pueden no ser seguras o no funcionar correctamente.
         </p>
 
-		  <div class="version-item">
-		    <div class="version-row">
-			  <span class="version-tag">v3.0.0</span>
-			  <a class="btn version-dl"
-			     href="https://github.com/serlortrademark/serloplaygames/releases/download/v3.0.0/SerLO_PLay_GamES.zip"
-			     rel="noopener">
-			     Descargar
-		 	  </a>
-		    </div>
+        <div class="versions-list">
+          <div class="version-item">
+            <div class="version-row">
+              <span class="version-tag">v3.0.0</span>
+              <a class="btn version-dl"
+                 href="https://github.com/serlortrademark/serloplaygames/releases/download/v3.0.0/SerLO_PLay_GamES.zip"
+                 rel="noopener">
+                 <span data-i18n="download_button">Descargar</span>
+              </a>
+            </div>
+            <p class="version-note" data-i18n="version_300_note">🧩 Versión anterior funcional, solo si necesitas compatibilidad.</p>
             <details class="version-details">
-              <summary>Detalles</summary>
+              <summary data-i18n="details">Detalles</summary>
               <ul>
-                <li>Sistema de iconos avanzado y compatibilidad con Steam.</li>
-                <li>Extracción automática de iconos mejorada desde <strong>.exe</strong>, <strong>.lnk</strong> y <strong>.url</strong>.</li>
-                <li>🌍 Multiidioma (Español/Inglés).</li>
-                <li>🎨 Tema claro y oscuro.</li>
-                <li>🔎 Buscador integrado.</li>
-                <li>📦 Exportar / importar configuración mediante ZIP.</li>
-                <li>🧩 Gestión más completa de juegos, accesos directos y aplicaciones.</li>
+                <li data-i18n="v300_li1">Sistema de iconos avanzado y compatibilidad con Steam.</li>
+                <li data-i18n-html="v300_li2">Extracción automática de iconos mejorada desde <strong>.exe</strong>, <strong>.lnk</strong> y <strong>.url</strong>.</li>
+                <li data-i18n="v300_li3">🌍 Multiidioma (Español/Inglés).</li>
+                <li data-i18n="v300_li4">🎨 Tema claro y oscuro.</li>
+                <li data-i18n="v300_li5">🔎 Buscador integrado.</li>
+                <li data-i18n="v300_li6">📦 Exportar / importar configuración mediante ZIP.</li>
+                <li data-i18n="v300_li7">🧩 Gestión más completa de juegos, accesos directos y aplicaciones.</li>
               </ul>
             </details>
           </div>
@@ -132,17 +140,17 @@
           <div class="version-item">
             <div class="version-row">
               <span class="version-tag">v1.1.0</span>
-              <span class="btn version-dl disabled">No disponible</span>
+              <span class="btn version-dl disabled" data-i18n="archived_unavailable">No disponible (archivada)</span>
             </div>
             <details class="version-details">
-              <summary>Detalles</summary>
+              <summary data-i18n="details">Detalles</summary>
               <ul>
-                <li>Sistema de licencia movido a Configuración.</li>
-                <li>Interfaz simplificada y más coherente.</li>
-                <li>Botón “Añadir juego” simplificado a “Añadir”.</li>
-                <li>Botón “JUGAR” cambiado a “Iniciar”.</li>
-                <li>Ajustes visuales y de espaciado en la interfaz.</li>
-                <li>Las ventanas secundarias ahora recuerdan su última posición.</li>
+                <li data-i18n="v110_li1">Sistema de licencia movido a Configuración.</li>
+                <li data-i18n="v110_li2">Interfaz simplificada y más coherente.</li>
+                <li data-i18n-html="v110_li3">Botón “Añadir juego” simplificado a “Añadir”.</li>
+                <li data-i18n-html="v110_li4">Botón “JUGAR” cambiado a “Iniciar”.</li>
+                <li data-i18n="v110_li5">Ajustes visuales y de espaciado en la interfaz.</li>
+                <li data-i18n="v110_li6">Las ventanas secundarias ahora recuerdan su última posición.</li>
               </ul>
             </details>
           </div>
@@ -150,17 +158,17 @@
           <div class="version-item">
             <div class="version-row">
               <span class="version-tag">v1.0.0</span>
-              <span class="btn version-dl disabled">No disponible</span>
+              <span class="btn version-dl disabled" data-i18n="archived_unavailable">No disponible (archivada)</span>
             </div>
             <details class="version-details">
-              <summary>Detalles</summary>
+              <summary data-i18n="details">Detalles</summary>
               <ul>
-                <li>Lanzamiento inicial del launcher.</li>
-                <li>Organización y ejecución de juegos o software.</li>
-                <li>Soporte para ejecutables (.exe) y accesos directos (.lnk).</li>
-                <li>Asignación de iconos personalizados (PNG / GIF).</li>
-                <li>Modo demo con limitaciones.</li>
-                <li>Exportar / Importar configuración (ZIP).</li>
+                <li data-i18n="v100_li1">Lanzamiento inicial del launcher.</li>
+                <li data-i18n="v100_li2">Organización y ejecución de juegos o software.</li>
+                <li data-i18n="v100_li3">Soporte para ejecutables (.exe) y accesos directos (.lnk).</li>
+                <li data-i18n="v100_li4">Asignación de iconos personalizados (PNG / GIF).</li>
+                <li data-i18n="v100_li5">Modo demo con limitaciones.</li>
+                <li data-i18n="v100_li6">Exportar / importar configuración (ZIP).</li>
               </ul>
             </details>
           </div>
@@ -169,12 +177,14 @@
     </section>
 
     <section>
-      <h2>📬 Ayuda y contacto</h2>
-      <p>Si necesitas ayuda o tienes cualquier consulta, puedes ponerte en contacto desde aquí.</p>
+      <h2 data-i18n="contact_title">📬 Ayuda y contacto</h2>
+      <p data-i18n="contact_p1">Si necesitas ayuda o tienes cualquier consulta, puedes ponerte en contacto desde aquí.</p>
       <a class="btn contact-btn"
          href="https://docs.google.com/forms/d/e/1FAIpQLSd19uy1a_KOiee_vySDFn6GRLwMrAbgI7NV0iwwub8DZdmZog/viewform?usp=header"
          target="_blank"
-         rel="noopener">Abrir formulario de contacto</a>
+         rel="noopener">
+         <span data-i18n="contact_button">Abrir formulario de contacto</span>
+      </a>
     </section>
   </main>
 
@@ -182,11 +192,11 @@
     <div class="wrap">
       <div class="terms-box">
         <details class="terms">
-          <summary>📄 Términos y condiciones</summary>
-          <p>SerLO PLay GamES se ofrece como software portable para Windows. El uso del programa es responsabilidad del usuario.</p>
-          <p>El autor no se hace responsable de posibles pérdidas de datos, fallos del sistema o problemas derivados del uso incorrecto del software.</p>
-          <p>El programa se distribuye tal cual, sin garantías de ningún tipo, expresas o implícitas.</p>
-          <p>El contenido de esta página puede modificarse en cualquier momento sin previo aviso.</p>
+          <summary data-i18n="terms_title">📄 Términos y condiciones</summary>
+          <p data-i18n="terms_p1">SerLO PLay GamES se ofrece como software portable para Windows. El uso del programa es responsabilidad del usuario.</p>
+          <p data-i18n="terms_p2">El autor no se hace responsable de posibles pérdidas de datos, fallos del sistema o problemas derivados del uso incorrecto del software.</p>
+          <p data-i18n="terms_p3">El programa se distribuye tal cual, sin garantías de ningún tipo, expresas o implícitas.</p>
+          <p data-i18n="terms_p4">El contenido de esta página puede modificarse en cualquier momento sin previo aviso.</p>
         </details>
       </div>
     </div>
@@ -195,7 +205,7 @@
   <footer class="site-footer">
     © SerLO PLay GamES 2026
     <div class="footer-logo">
-      <img src="img/serlo-logo.png" alt="SerLO logo">
+      <img src="img/serlo-logo.png" alt="SerLO logo" id="footer-logo-img">
     </div>
   </footer>
 
@@ -208,6 +218,7 @@
       const lightbox = document.getElementById("lightbox");
       const lightboxImg = document.getElementById("lightbox-img");
       lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
       lightbox.classList.add("show");
     }
 
@@ -218,6 +229,212 @@
     document.addEventListener("keydown", function(e) {
       if (e.key === "Escape") closeLightbox();
     });
+
+    const translations = {
+      es: {
+        meta_description: "SerLO PLay GamES es un launcher portable para Windows que permite organizar y ejecutar juegos, accesos directos y aplicaciones desde un solo lugar, con soporte para Steam, auto iconos, tema claro/oscuro, multiidioma y sistema de colores de acento.",
+        hero_subtitle: "Organiza y ejecuta tus juegos y aplicaciones desde un solo lugar, de forma simple y rápida",
+        backup_notice_prefix: "🔸 Estás en una página alternativa · Web oficial:",
+        download_button: "Descargar",
+        download_status: "Última versión disponible",
+        windows_compat: "🪟 Compatible con Windows 10/11",
+
+        what_is_title: "🧩 ¿Qué es?",
+        what_is_p1: "SerLO PLay GamES es un launcher portable para Windows que te permite organizar, lanzar y personalizar tus juegos, accesos directos y aplicaciones desde un único lugar.",
+        what_is_p2: "Es compatible con archivos <strong>.exe</strong>, accesos directos <strong>.lnk</strong> y accesos directos a Internet <strong>.url</strong>, incluyendo compatibilidad con <strong>Steam</strong>.",
+        what_is_p3: "Está pensado para centralizar y simplificar el acceso a tus aplicaciones favoritas con una interfaz ligera, clara, fácil de usar y ahora también más personalizable visualmente.",
+
+        news_title: "✨ Novedades de la versión 3.1.0",
+        news_li1: "<strong>🎨 Nuevo sistema de colores de acento.</strong>",
+        news_li2: "Posibilidad de elegir entre <strong>Naranja</strong>, <strong>Azul</strong>, <strong>Verde</strong>, <strong>Morado</strong>, <strong>Gris</strong> y <strong>Turquesa</strong>.",
+        news_li3: "El color de acento se aplica a la <strong>selección de la lista</strong>, al botón <strong>Iniciar</strong> y a la <strong>barra de búsqueda</strong>.",
+        news_li4: "Los enlaces de <strong>Configuración</strong> y <strong>Acerca de</strong> también se adaptan al color elegido.",
+        news_li5: "🧼 Mejora visual general y refinamiento de la interfaz.",
+        news_li6: "⚙️ Ajustes en Configuración para una experiencia más limpia y coherente.",
+
+        screenshots_title: "🖼️ Capturas",
+        screenshot_1_alt: "SerLO Play Games - Vista 1",
+        screenshot_2_alt: "SerLO Play Games - Vista 2",
+        screenshot_3_alt: "SerLO Play Games - Vista 3",
+        screenshot_4_alt: "SerLO Play Games - Vista 4",
+
+        how_it_works_title: "⚙️ Cómo funciona",
+        how_it_works_li1: "Descargas y ejecutas el programa en Windows, sin instalación.",
+        how_it_works_li2: "Puedes usarlo en modo demo con limitaciones.",
+        how_it_works_li3: "La activación se realiza dentro del propio launcher.",
+        how_it_works_li4: "Permite organizar, renombrar, reordenar y personalizar tus elementos.",
+        how_it_works_li5: "Desde Configuración también puedes cambiar el idioma, el tema y el color de acento de la interfaz.",
+        video_button: "🎥 Ver vídeo tutorial",
+
+        update_title: "🔄 Cómo se actualiza SerLO PLay GamES",
+        update_p1: "SerLO PLay GamES es un programa portable, por lo que no requiere instalación.",
+        update_p2: "Para actualizarlo, simplemente descarga la nueva versión y sustituye el antiguo <strong>.exe</strong> por el nuevo en la misma carpeta.",
+        update_p3: "El resto de archivos y carpetas se mantienen intactos, por lo que no se pierde ninguna configuración ni información.",
+        update_p4: "No es necesario desinstalar nada ni ejecutar instaladores: descargar, reemplazar y listo.",
+        previous_versions_title: "📦 Versiones anteriores (archivo)",
+        old_versions_note: "⚠️ Se recomienda usar siempre la última versión. Las versiones anteriores pueden no ser seguras o no funcionar correctamente.",
+        version_300_note: "🧩 Versión anterior funcional, solo si necesitas compatibilidad.",
+        details: "Detalles",
+        archived_unavailable: "No disponible (archivada)",
+
+        v300_li1: "Sistema de iconos avanzado y compatibilidad con Steam.",
+        v300_li2: "Extracción automática de iconos mejorada desde <strong>.exe</strong>, <strong>.lnk</strong> y <strong>.url</strong>.",
+        v300_li3: "🌍 Multiidioma (Español/Inglés).",
+        v300_li4: "🎨 Tema claro y oscuro.",
+        v300_li5: "🔎 Buscador integrado.",
+        v300_li6: "📦 Exportar / importar configuración mediante ZIP.",
+        v300_li7: "🧩 Gestión más completa de juegos, accesos directos y aplicaciones.",
+
+        v110_li1: "Sistema de licencia movido a Configuración.",
+        v110_li2: "Interfaz simplificada y más coherente.",
+        v110_li3: "Botón “Añadir juego” simplificado a “Añadir”.",
+        v110_li4: "Botón “JUGAR” cambiado a “Iniciar”.",
+        v110_li5: "Ajustes visuales y de espaciado en la interfaz.",
+        v110_li6: "Las ventanas secundarias ahora recuerdan su última posición.",
+
+        v100_li1: "Lanzamiento inicial del launcher.",
+        v100_li2: "Organización y ejecución de juegos o software.",
+        v100_li3: "Soporte para ejecutables (.exe) y accesos directos (.lnk).",
+        v100_li4: "Asignación de iconos personalizados (PNG / GIF).",
+        v100_li5: "Modo demo con limitaciones.",
+        v100_li6: "Exportar / importar configuración (ZIP).",
+
+        contact_title: "📬 Ayuda y contacto",
+        contact_p1: "Si necesitas ayuda o tienes cualquier consulta, puedes ponerte en contacto desde aquí.",
+        contact_button: "Abrir formulario de contacto",
+
+        terms_title: "📄 Términos y condiciones",
+        terms_p1: "SerLO PLay GamES se ofrece como software portable para Windows. El uso del programa es responsabilidad del usuario.",
+        terms_p2: "El autor no se hace responsable de posibles pérdidas de datos, fallos del sistema o problemas derivados del uso incorrecto del software.",
+        terms_p3: "El programa se distribuye tal cual, sin garantías de ningún tipo, expresas o implícitas.",
+        terms_p4: "El contenido de esta página puede modificarse en cualquier momento sin previo aviso."
+      },
+
+      en: {
+        meta_description: "SerLO PLay GamES is a portable launcher for Windows that lets you organize and launch games, shortcuts, and applications from one place, with Steam support, auto icons, light/dark theme, multilingual support, and an accent color system.",
+        hero_subtitle: "Organize and launch your games and applications from one place, in a simple and fast way",
+        backup_notice_prefix: "🔸 You are on an alternative page · Official website:",
+        download_button: "Download",
+        download_status: "Latest version available",
+        windows_compat: "🪟 Compatible with Windows 10/11",
+
+        what_is_title: "🧩 What is it?",
+        what_is_p1: "SerLO PLay GamES is a portable launcher for Windows that lets you organize, launch, and customize your games, shortcuts, and applications from one place.",
+        what_is_p2: "It supports <strong>.exe</strong> files, <strong>.lnk</strong> shortcuts, and Internet shortcuts <strong>.url</strong>, including <strong>Steam</strong> compatibility.",
+        what_is_p3: "It is designed to centralize and simplify access to your favorite applications with a lightweight, clear, easy-to-use interface that is now also more visually customizable.",
+
+        news_title: "✨ What's new in version 3.1.0",
+        news_li1: "<strong>🎨 New accent color system.</strong>",
+        news_li2: "You can now choose between <strong>Orange</strong>, <strong>Blue</strong>, <strong>Green</strong>, <strong>Purple</strong>, <strong>Gray</strong>, and <strong>Turquoise</strong>.",
+        news_li3: "The accent color applies to the <strong>list selection</strong>, the <strong>Start</strong> button, and the <strong>search bar</strong>.",
+        news_li4: "The <strong>Settings</strong> and <strong>About</strong> links also adapt to the selected color.",
+        news_li5: "🧼 General visual improvement and interface refinement.",
+        news_li6: "⚙️ Settings adjustments for a cleaner and more consistent experience.",
+
+        screenshots_title: "🖼️ Screenshots",
+        screenshot_1_alt: "SerLO Play Games - View 1",
+        screenshot_2_alt: "SerLO Play Games - View 2",
+        screenshot_3_alt: "SerLO Play Games - View 3",
+        screenshot_4_alt: "SerLO Play Games - View 4",
+
+        how_it_works_title: "⚙️ How it works",
+        how_it_works_li1: "Download and run the program on Windows, with no installation required.",
+        how_it_works_li2: "You can use it in demo mode with limitations.",
+        how_it_works_li3: "Activation is done directly inside the launcher.",
+        how_it_works_li4: "It lets you organize, rename, reorder, and customize your items.",
+        how_it_works_li5: "From Settings, you can also change the interface language, theme, and accent color.",
+        video_button: "🎥 Watch video tutorial",
+
+        update_title: "🔄 How to update SerLO PLay GamES",
+        update_p1: "SerLO PLay GamES is a portable program, so it does not require installation.",
+        update_p2: "To update it, simply download the new version and replace the old <strong>.exe</strong> with the new one in the same folder.",
+        update_p3: "All other files and folders remain untouched, so no settings or information are lost.",
+        update_p4: "There is no need to uninstall anything or run installers: download, replace, and done.",
+        previous_versions_title: "📦 Previous versions (archive)",
+        old_versions_note: "⚠️ It is recommended to always use the latest version. Previous versions may not be secure or may not work properly.",
+        version_300_note: "🧩 Functional previous version, only if you need compatibility.",
+        details: "Details",
+        archived_unavailable: "Unavailable (archived)",
+
+        v300_li1: "Advanced icon system and Steam compatibility.",
+        v300_li2: "Improved automatic icon extraction from <strong>.exe</strong>, <strong>.lnk</strong>, and <strong>.url</strong>.",
+        v300_li3: "🌍 Multilingual support (Spanish/English).",
+        v300_li4: "🎨 Light and dark theme.",
+        v300_li5: "🔎 Built-in search.",
+        v300_li6: "📦 Export / import configuration via ZIP.",
+        v300_li7: "🧩 More complete management of games, shortcuts, and applications.",
+
+        v110_li1: "License system moved to Settings.",
+        v110_li2: "Simplified and more consistent interface.",
+        v110_li3: "“Add game” button simplified to “Add”.",
+        v110_li4: "“PLAY” button changed to “Start”.",
+        v110_li5: "Visual and spacing adjustments in the interface.",
+        v110_li6: "Secondary windows now remember their last position.",
+
+        v100_li1: "Initial launcher release.",
+        v100_li2: "Organization and launching of games or software.",
+        v100_li3: "Support for executables (.exe) and shortcuts (.lnk).",
+        v100_li4: "Custom icon assignment (PNG / GIF).",
+        v100_li5: "Demo mode with limitations.",
+        v100_li6: "Export / import configuration (ZIP).",
+
+        contact_title: "📬 Help and contact",
+        contact_p1: "If you need help or have any questions, you can get in touch here.",
+        contact_button: "Open contact form",
+
+        terms_title: "📄 Terms and conditions",
+        terms_p1: "SerLO PLay GamES is offered as portable software for Windows. Use of the program is the user's responsibility.",
+        terms_p2: "The author is not responsible for possible data loss, system failures, or problems resulting from incorrect use of the software.",
+        terms_p3: "The program is distributed as is, without warranties of any kind, express or implied.",
+        terms_p4: "The content of this page may be modified at any time without prior notice."
+      }
+    };
+
+    function setLanguage(lang) {
+      const selectedLang = translations[lang] ? lang : "es";
+
+      document.documentElement.lang = selectedLang;
+      localStorage.setItem("serlo_lang", selectedLang);
+
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.getAttribute("data-i18n");
+        if (translations[selectedLang][key]) {
+          el.textContent = translations[selectedLang][key];
+        }
+      });
+
+      document.querySelectorAll("[data-i18n-html]").forEach(el => {
+        const key = el.getAttribute("data-i18n-html");
+        if (translations[selectedLang][key]) {
+          el.innerHTML = translations[selectedLang][key];
+        }
+      });
+
+      document.querySelectorAll("[data-i18n-alt]").forEach(el => {
+        const key = el.getAttribute("data-i18n-alt");
+        if (translations[selectedLang][key]) {
+          el.alt = translations[selectedLang][key];
+        }
+      });
+
+      const metaDescription = document.getElementById("meta-description");
+      if (metaDescription) {
+        metaDescription.setAttribute("content", translations[selectedLang].meta_description);
+      }
+
+      document.querySelectorAll(".lang-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.lang === selectedLang);
+      });
+    }
+
+    document.querySelectorAll(".lang-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        setLanguage(btn.dataset.lang);
+      });
+    });
+
+    const savedLang = localStorage.getItem("serlo_lang") || "es";
+    setLanguage(savedLang);
   </script>
 </body>
 </html>
