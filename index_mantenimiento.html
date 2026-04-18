@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SerLO PLay GamES - Mantenimiento</title>
+<link rel="icon" type="image/png" href="favicon.png">
+
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: white;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(255,122,0,0.08), transparent 70%);
+  animation: rotateBg 25s linear infinite;
+}
+
+@keyframes rotateBg {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  max-width: 650px;
+  padding: 50px;
+  backdrop-filter: blur(8px);
+  background: rgba(20,20,20,0.75);
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(255,122,0,0.15);
+  animation: fadeIn 1.2s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.logo-img {
+  width: 180px;
+  margin-bottom: 10px;
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.brand-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #ff7a00;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.6rem;
+  margin: 10px 0;
+}
+
+.divider {
+  width: 80px;
+  height: 3px;
+  background: #ff7a00;
+  margin: 20px auto;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin: 8px 0;
+}
+
+.status {
+  margin-top: 25px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* 🔥 Selector idioma */
+.lang-switch{
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  display: flex;
+  gap: 6px;
+  z-index: 10;
+}
+
+.lang-btn{
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border-radius: 6px;
+  padding: 3px 6px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.lang-btn.active{
+  background: #ff7a00;
+}
+</style>
+</head>
+
+<body>
+
+<div class="lang-switch">
+  <button class="lang-btn active" data-lang="es">ES</button>
+  <button class="lang-btn" data-lang="en">EN</button>
+</div>
+
+<div class="container">
+  <img src="img/logo.png" class="logo-img">
+
+  <div class="brand-title">SerLO PLay GamES</div>
+
+  <h1 data-i18n="title">🚧 En mantenimiento</h1>
+
+  <div class="divider"></div>
+
+  <p data-i18n="p1">Estamos realizando mejoras y optimizaciones.</p>
+  <p data-i18n="p2">Volvemos muy pronto.</p>
+
+  <div class="status" data-i18n="status">Muchas gracias</div>
+</div>
+
+<script>
+const t = {
+  es:{
+    title:"🚧 En mantenimiento",
+    p1:"Estamos realizando mejoras y optimizaciones.",
+    p2:"Volvemos muy pronto.",
+    status:"Muchas gracias"
+  },
+  en:{
+    title:"🚧 Under maintenance",
+    p1:"We are making improvements and optimizations.",
+    p2:"We will be back soon.",
+    status:"Thank you"
+  }
+};
+
+function setLang(lang){
+  document.documentElement.lang = lang;
+  localStorage.setItem("lang", lang);
+
+  document.querySelectorAll("[data-i18n]").forEach(e=>{
+    e.textContent = t[lang][e.dataset.i18n];
+  });
+
+  document.querySelectorAll(".lang-btn").forEach(b=>{
+    b.classList.toggle("active", b.dataset.lang === lang);
+  });
+}
+
+document.querySelectorAll(".lang-btn").forEach(b=>{
+  b.onclick = () => setLang(b.dataset.lang);
+});
+
+setLang(localStorage.getItem("lang") || "es");
+</script>
+
+</body>
+</html>
