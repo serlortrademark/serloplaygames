@@ -31,7 +31,7 @@
 
 ---
 
-### 🇪🇸 Español
+#### 🇪🇸 Español
 
 ## 🧩 ¿Qué es?
 
@@ -89,7 +89,7 @@ https://serloplaygames.pages.dev
 
 ---
 
-### 🇬🇧 English
+#### 🇬🇧 English
 
 ## 🧩 What is it?
 
