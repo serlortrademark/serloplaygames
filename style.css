@@ -16,7 +16,42 @@ body{
 }
 
 header{
+  position: relative;
   text-align: center;
+}
+
+.lang-switch{
+  position: absolute;
+  top: 22px;
+  right: 18px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.lang-btn{
+  border: 1px solid rgba(0,0,0,0.10);
+  background: rgba(255,255,255,0.75);
+  color: #7c2d12;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all .2s ease;
+}
+
+.lang-btn:hover{
+  background: rgba(255,255,255,0.95);
+}
+
+.lang-btn.active{
+  background: #ea580c;
+  color: #fff;
+  border-color: #ea580c;
+  box-shadow: 0 8px 20px rgba(234, 88, 12, 0.25);
 }
 
 h1{
@@ -320,6 +355,14 @@ section a.btn{
   color: #6b7280;
 }
 
+.version-note{
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: #7c2d12;
+  opacity: 0.9;
+  text-align: left;
+}
+
 .version-details{
   margin-top: 10px;
 }
@@ -376,30 +419,31 @@ section a.btn{
   opacity: 1;
 }
 
+.download-status{
+  font-size: 12px;
+  font-weight: 600;
+  color: #9a3412;
+  opacity: 0.9;
+}
+
 .btn.btn-download{
   display: inline-flex;
   align-items: center;
   gap: 10px;
-
   padding: 14px 22px;
   border-radius: 14px;
-
   color: #fff;
   border: 1px solid rgba(255,255,255,0.28);
-
   background: linear-gradient(
     145deg,
     rgba(255, 140, 0, 0.85),
     rgba(234, 88, 12, 0.72)
   );
-
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-
   box-shadow:
     0 10px 26px rgba(234, 88, 12, 0.35),
     inset 0 1px 0 rgba(255,255,255,0.45);
-
   transition: transform .2s ease, box-shadow .2s ease, filter .2s ease;
 }
 
@@ -471,225 +515,32 @@ section a.btn{
   text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 768px){
+  .grid{
+    grid-template-columns: 1fr;
+  }
+
+  h1{
+    font-size: 36px;
+  }
+
+  .sub{
+    font-size: 19px;
+    margin-bottom: 48px;
+  }
+
+  .version-row{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .lang-switch{
+    position: static;
+    justify-content: center;
+    margin-bottom: 18px;
+  }
+
+  .backup-notice{
+    margin-top: -18px;
+  }
+}
