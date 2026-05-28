@@ -52,7 +52,6 @@ Compatible con `.exe`, `.lnk` y `.url`, incluyendo integración con Steam.
 - 🔍 Buscador integrado
 - 📦 Exportar / importar configuración mediante ZIP
 - 🌍 Multiidioma: Español / Inglés
-- Modo demo con limitaciones
 
 ---
 
@@ -110,7 +109,6 @@ Compatible with `.exe`, `.lnk`, and `.url`, including Steam integration.
 - 🔍 Built-in search
 - 📦 Export / import configuration via ZIP
 - 🌍 Multilingual: Spanish / English
-- Demo mode with limitations
 
 ---
 
