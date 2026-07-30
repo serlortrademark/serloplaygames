@@ -56,7 +56,7 @@ Compatible con `.exe`, `.lnk` y `.url`, incluyendo integración con Steam.
 - 🎨 Sistema de colores de acento aplicado a los botones principales, listas, casillas, selecciones, campos de texto, bordes y barras de título
 - Tema claro y oscuro
 - 🔍 Buscador integrado de la biblioteca
-- 🧹 Opción **Eliminar no encontrados**, puedes eliminar los elementos que ya no estén disponibles
+- 🧹 La opción Eliminar no encontrados permite eliminar los elementos que ya no estén disponibles.
 - 🔄 Restauración de ajustes o restablecimiento completo de la aplicación
 - 📦 Exportar / importar configuración mediante ZIP
 - 🌍 Multiidioma: Español / Inglés
@@ -120,7 +120,7 @@ Compatible with `.exe`, `.lnk`, and `.url`, including Steam integration.
 - 🎨 Accent colors applied to main buttons, lists, checkboxes, selections, text fields, window borders, and title bars
 - Light and dark theme
 - 🔍 Built-in library search
-- 🧹 Remove Missing option lets you delete items that are no longer available.
+- 🧹 The Remove Missing option lets you delete items that are no longer available.
 - 🔄 Restore settings or completely reset the application
 - 📦 Export / import configuration via ZIP
 - 🌍 Multilingual: Spanish / English
