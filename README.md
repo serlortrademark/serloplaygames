@@ -126,13 +126,13 @@ Compatible with `.exe`, `.lnk`, and `.url`, including Steam integration.
 ## 🖼️ Screenshots
 
 <p align="center">
-  <img src="img/captura1.png" width="48%">
-  <img src="img/captura2.png" width="48%">
+  <img src="img/captura1_en.png" width="48%">
+  <img src="img/captura2_en.png" width="48%">
 </p>
 
 <p align="center">
-  <img src="img/captura3.png" width="48%">
-  <img src="img/captura4.png" width="48%">
+  <img src="img/captura3_en.png" width="48%">
+  <img src="img/captura4_en.png" width="48%">
 </p>
 
 ---
