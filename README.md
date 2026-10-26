@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-5.0.3-orange?style=for-the-badge" alt="Version 5.0.3">
+  <img src="https://img.shields.io/badge/Version-5.0.4-orange?style=for-the-badge" alt="Version 5.0.4">
   <img src="https://img.shields.io/badge/Price-Free-brightgreen?style=for-the-badge" alt="Completely free">
 </p>
 
