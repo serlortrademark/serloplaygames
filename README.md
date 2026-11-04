@@ -114,20 +114,6 @@ It supports `.exe` executable files, `.lnk` Windows shortcuts, and `.url` Intern
 
 ---
 
-## 🖼️ Screenshots
-
-<p align="center">
-  <img src="img/captura1_en.png" width="48%" alt="SerLO PLay GamES - Screenshot 1">
-  <img src="img/captura2_en.png" width="48%" alt="SerLO PLay GamES - Screenshot 2">
-</p>
-
-<p align="center">
-  <img src="img/captura3_en.png" width="48%" alt="SerLO PLay GamES - Screenshot 3">
-  <img src="img/captura4_en.png" width="48%" alt="SerLO PLay GamES - Settings">
-</p>
-
----
-
 ## 📥 Download
 
 **SerLO PLay GamES is distributed for free through Microsoft Store.** Public portable versions and GitHub Releases downloads are no longer offered.
