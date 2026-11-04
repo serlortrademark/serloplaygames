@@ -61,20 +61,6 @@ Es compatible con archivos `.exe`, accesos directos de Windows `.lnk` y accesos 
 
 ---
 
-## 🖼️ Capturas
-
-<p align="center">
-  <img src="img/captura1.png" width="48%" alt="SerLO PLay GamES - Captura 1">
-  <img src="img/captura2.png" width="48%" alt="SerLO PLay GamES - Captura 2">
-</p>
-
-<p align="center">
-  <img src="img/captura3.png" width="48%" alt="SerLO PLay GamES - Captura 3">
-  <img src="img/captura4.png" width="48%" alt="SerLO PLay GamES - Configuración">
-</p>
-
----
-
 ## 📥 Descargar
 
 **SerLO PLay GamES se distribuye gratuitamente a través de Microsoft Store.** No se ofrecen versiones portables públicas ni descargas desde GitHub Releases.
