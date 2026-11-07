@@ -188,7 +188,7 @@ h2 { font-size: clamp(32px, 4.2vw, 48px); line-height: 1.15; letter-spacing: -1.
 .faq-list details p { color:var(--muted);font-size:14px;line-height:1.85;margin:0 0 22px;max-width:650px; }
 .cta-section { padding-top:30px; }
 .cta-inner { position:relative;overflow:hidden; background:linear-gradient(110deg,#ff953d,#f36e1b);border-radius:25px;padding:54px 58px;display:flex;justify-content:space-between;align-items:center;gap:45px;color:#251508; }
-.cta-inner > * { position:relative;z-index:1; }.cta-inner > div:nth-child(2) {max-width:590px;}
+.cta-inner > * { position:relative;z-index:1; }.cta-inner .cta-copy {max-width:590px;min-width:0;flex:1;}
 .cta-inner .kicker { color:#613716; }.cta-inner h2 { color:#28180d; }.cta-inner p {font-size:15px;max-width:580px;line-height:1.8;margin:16px 0 0;color:#4f2b10;}
 .cta-ornament {position:absolute;z-index:0;font-size:400px;color:rgba(255,255,255,.15);top:-220px;right:16%;line-height:1; }
 .btn-light { color:#2f2017;background:#fff9f2;flex-shrink:0;box-shadow:0 12px 23px rgba(115,52,12,.13); }.btn-light:hover {background:white;}
@@ -278,6 +278,29 @@ body.lightbox-open {overflow:hidden;}
 .news-section #news-heading { font-size: clamp(21px, 4.2vw, 48px); }
 .news-section .news-title-brand { display: block; white-space: nowrap; color: var(--accent); }
 .news-section .news-feature-logo { display: block; width: min(200px, 48vw); max-width: 100%; height: auto; margin: 20px auto 4px; object-fit: contain; }
+
+/* Web atemporal: el logotipo preside la invitacion final a Microsoft Store. */
+.cta-inner { gap: 27px; padding: 45px 40px; }
+.cta-inner .cta-brand-mark {
+  display: grid; place-items: center; flex: 0 0 142px; width:142px;
+  padding: 0; background: transparent;
+  border: 0; border-radius: 0;
+  box-shadow: none;
+}
+.cta-inner .cta-brand-mark img {display:block;width:100%;height:auto;object-fit:contain;filter:drop-shadow(0 7px 10px rgba(64,24,7,.22));}
+.cta-inner .btn-light {white-space:nowrap;}
+@media(max-width:900px) {
+  .cta-inner {display:grid;grid-template-columns:108px minmax(0,1fr);gap:17px 25px;align-items:center;}
+  .cta-inner .cta-brand-mark {width:108px;padding:0;border-radius:0;}
+  .cta-inner .cta-copy {max-width:none;}
+  .cta-inner > a.btn-light {grid-column:2;justify-self:start;}
+}
+@media(max-width:650px) {
+  .cta-inner {display:flex;flex-direction:column;align-items:center;text-align:center;padding:34px 27px;gap:17px;}
+  .cta-inner .cta-brand-mark {width:132px;padding:0;}
+  .cta-inner .cta-copy {width:100%;}
+  .cta-inner > a.btn-light {width:100%;margin-top:4px;justify-content:center;white-space:normal;}
+}
 
 
 /* ===== WEB 10: dos opciones de Microsoft Store, sin alterar el diseño naranja ===== */
